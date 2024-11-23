@@ -18,7 +18,12 @@
 					headers: {
 						'X-CSRF-TOKEN': '{{ csrf_token() }}',
 					}
-                }
+                },
+                // ui: {
+                //     viewportOffset: {
+                //         top: 70
+                //     }
+                // }
             })
         }
     </script>
